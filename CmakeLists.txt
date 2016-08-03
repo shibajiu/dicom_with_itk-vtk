@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.0)
+project(itkvtkdicom)
+find_package(ITK REQUIRED)
+find_package(VTK REQUIRED)
+include(${ITK_USE_FILE} ${VTK_USE_FILE})
+add_executable(dicom dicom.cpp)
+target_link_libraries(dicom ${Glue} ${VTK_LIBRARIES} ${ITK_LIBRARIES})

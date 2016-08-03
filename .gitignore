@@ -1,0 +1,14 @@
+cmakefiles/
+debug/
+release/
+dicom.dir
+ITKIOFactoryRegistration/
+win32/
+
+*.vcxproj
+cmakecache.txt
+*.sln
+*.sdf
+*.suo
+*.filters
+*.cmake
